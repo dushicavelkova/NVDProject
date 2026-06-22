@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THE BLADE - About Us</title>
+  <style>
+    /* Ги користиме твоите бои и стилови */
+    :root {
+      --bg: #0d0d0d;
+      --surface: #141414;
+      --border: #222;
+      --gold: #c9a84c;
+      --text: #f5f5f5;
+      --muted: #888;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* Едноставна навигација за враќање назад */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.2rem 3rem;
+      background: rgba(13,13,13,0.92);
+      border-bottom: 1px solid var(--border);
+    }
+    .logo {
+      font-size: 1.4rem;
+      letter-spacing: 0.15em;
+      color: var(--gold);
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .back-btn {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: color 0.2s;
+    }
+    .back-btn:hover { color: var(--gold); }
+
+    /* Содржина на About страницата */
+    .about-container {
+      max-width: 800px;
+      margin: 4rem auto;
+      padding: 0 2rem;
+      text-align: center;
+    }
+
+    .about-container h1 {
+      font-size: 2.5rem;
+      color: var(--text);
+      margin-bottom: 1.5rem;
+      letter-spacing: 0.05em;
+    }
+
+    .gold-divider {
+      width: 60px;
+      height: 2px;
+      background: var(--gold);
+      margin: 0 auto 2rem auto;
+    }
+
+    .about-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 2.5rem;
+      border-radius: 4px;
+      text-align: left;
+      line-height: 1.8;
+      font-size: 1.05rem;
+      color: #dddddd;
+    }
+
+    .about-card p {
+      margin-bottom: 1.5rem;
+    }
+
+    .highlight {
+      color: var(--gold);
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="index.html" class="logo">THE BLADE</a>
+    <a href="index.html" class="back-btn">← Back to Home</a>
+  </nav>
+
+  <main class="about-container">
+    <h1>About Our Story</h1>
+    <div class="gold-divider"></div>
+
+    <div class="about-card">
+      <p>Добредојдовте во <span class="highlight">THE BLADE</span> – место каде традиционалното берберство се среќава со модерниот урбан стил. Основано со визија да понудиме повеќе од обично потстрижување, нашето студио е простор каде секој маж добива персонализирана грижа.</p>
+      
+      <p>Ние веруваме дека прецизноста е уметност. Без разлика дали станува збор за класична машка фризура, детален <span class="highlight">Fade</span>, или комплетно уредување и нега на вашата брада, нашиот тим користи врвни техники и професионална козметика за да го постигне совршениот изглед.</p>
+
+      <p>Придружете ни се, опуштете се во нашата премиум атмосфера и искусете го врвното берберско доживување.</p>
+    </div>
+  </main>
+
+</body>
+</html>

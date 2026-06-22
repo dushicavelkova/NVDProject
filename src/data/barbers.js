@@ -20,7 +20,7 @@ export const regions = [
     { id: 'gevgelija',    name: 'Gevgelija',        shops: [{ id:20, name: 'Border Style',    address: 'Str. Vardar 11',     phone: '+389 34 234 567', rating: 4.5 }]},
     { id: 'kriva_palanka',name: 'Kriva Palanka',    shops: [{ id:21, name: 'East Blade',      address: 'Str. Osogovo 4',     phone: '+389 31 234 567', rating: 4.3 }]},
     { id: 'vinica',       name: 'Vinica',           shops: [{ id:22, name: 'Valley Cuts',     address: 'Str. Bregalnica 2',  phone: '+389 33 456 789', rating: 4.2 }]},
-    { id: 'sveti_nikole', name: 'Sveti Nikole',     shops: [{ id:23, name: 'Nikola Cuts',  address: 'зграда бр. 4, Ударничка бр. 9, Sveti Nikole 0000',   phone: '078-621-008', rating: 4.3 }]},
+    { id: 'sveti_nikole', name: 'Sveti Nikole',     shops: [{ id:23, name: 'Fade&Blade Barbershop',  address: 'Ploshtad Ilinden 53, Sveti Nikole 2220',   phone: '071-335-366', rating: 5.0 }]},
     { id: 'probistip',    name: 'Probištip',        shops: [{ id:24, name: 'Mine Town Cuts',  address: 'Str. Rudarska 3',    phone: '+389 32 567 890', rating: 4.2 }]},
     { id: 'kratovo',      name: 'Kratovo',          shops: [{ id:25, name: 'Old Town Barber', address: 'Str. Stara Čaršija 1',phone: '+389 31 345 678', rating: 4.5 }]},
     { id: 'krusevo',      name: 'Kruševo',          shops: [{ id:26, name: 'Highland Cuts',   address: 'Str. Ilindenska 5',  phone: '+389 48 234 567', rating: 4.6 }]},

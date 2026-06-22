@@ -3,7 +3,7 @@
     <span class="logo">THE BLADE</span>
     <ul>
       <li><a href="#services">Services</a></li>
-      <li><a href="#about">About</a></li>
+      <li><a href="/about">About</a></li>
       <li><a href="#booking" class="cta">Book Now</a></li>
     </ul>
   </nav>
